@@ -524,3 +524,15 @@ CRITICAL: For each solution, provide a 'prescriptive_action_plan' containing spe
                     st.session_state[key] = None
                 st.session_state.phase = 1
                 st.rerun()
+
+st.divider()
+st.markdown(
+    """
+    <div style="text-align:center; font-weight:700; font-size:16px; padding:10px; background:#f6f8fa; border-radius:6px;">
+      Built by <a href="http://kongokega.com/" target="_blank">kongokega.com</a> —
+      <a href="https://www.linkedin.com/in/vincent-mbogo/" target="_blank">LinkedIn: Vincent Mbogo</a> —
+      <a href="https://x.com/kongokega" target="_blank">X: @kongokega</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
